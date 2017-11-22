@@ -14,7 +14,8 @@ generate a sequence of x and sin(x)
   * sequence of x and f(x)
 
 ## Uebung 2
-1. fibonacci.cpp ---- generate fibonacci sequence with the ratio of neighboring number
+1. fibonacci.cpp  
+generate fibonacci sequence with the ratio of neighboring number
   * input:
     - count: number of numbers in generated sequence
   * output:
