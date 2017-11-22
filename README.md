@@ -14,12 +14,17 @@ output:
 * sequence of x and f(x)
 
 ## Uebung 2
-Fibonacci.cpp
+1. Fibonacci.cpp
 * generate fibonacci sequence with the ratio of neighboring number
 
-input:
-* count: number of numbers in genarated sequence
+ input:
+ * count: number of numbers in genarated sequence
 
-output:
-* fibonacci sequence
-* ratio of neighboring number
+ output:
+ * fibonacci sequence
+ * ratio of neighboring number
+2. MKinteg.cpp
+* calculate the area of a circle using Monte Carlo Integration methode
+
+ input:
+  
