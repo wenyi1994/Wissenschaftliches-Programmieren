@@ -3,16 +3,23 @@ Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure 
 
 ## Uebung 1
 sinus_plot.cxx
+* generate a sequence of x and sin(x)
 
-input:
-
+input: 
+* (input has beed protected by checking its legality)
 * hw: the times of halfwave length
 * nsteps: number of sampling points
 
-//input has beed protected by checking its legality
-
 output:
-
 * sequence of x and f(x)
 
 ## Uebung 2
+Fibonacci.cpp
+* generate fibonacci sequence with the ratio of neighboring number
+
+input:
+* count: number of numbers in genarated sequence
+
+output:
+* fibonacci sequence
+* ratio of neighboring number
