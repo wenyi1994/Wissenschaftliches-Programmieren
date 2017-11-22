@@ -15,9 +15,9 @@ output:
 
 ## Uebung 2
 1. Fibonacci.cpp  
-generate fibonacci sequence with the ratio of neighboring number
-
- input:
+generate fibonacci sequence with the ratio of neighboring number  
+  
+input:
  * count: number of numbers in genarated sequence
 
  output:
