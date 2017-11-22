@@ -21,6 +21,9 @@ generate fibonacci sequence with the ratio of neighboring number
   * output:
     - fibonacci sequence
     - ratio of neighboring number
-2. MKinteg.cpp ---- calculate the area of a circle using Monte Carlo Integration methode
+2. MKinteg.cpp  
+calculate the area of a circle using Monte Carlo Integration methode
   * input:
-  
+    - r: radius of a circle
+  * outut:
+    - area of the circle
