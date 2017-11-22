@@ -9,9 +9,10 @@ input:
 * hw: the times of halfwave length
 * nsteps: number of sampling points
 
+//input has beed protected by checking its legality
+
 output:
 
 * sequence of x and f(x)
-<!--input has beed protected by checking its legality-->
 
 ## Uebung 2
