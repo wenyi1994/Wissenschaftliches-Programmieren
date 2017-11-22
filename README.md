@@ -29,7 +29,7 @@ calculate the area of a circle using Monte Carlo Integration methode
     - area of the circle
 
 ## Uebung 3
-using libary Eigen3 <eigen.tuxfamily.org>  
+using libary [Eigen3](eigen.tuxfamily.org)  
 generate a matrix to simulate a 'game of life', ouput data can be plotted with GNUPLOT.
 1. functions_game.h  
 headfile of 'functions_game.cpp'
