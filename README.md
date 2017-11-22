@@ -6,10 +6,9 @@ sinus_plot.cxx
 
 input:
 
-hw        the times of halfwave length
-
-nsteps    number of sampling points
+* hw        the times of halfwave length
+* nsteps    number of sampling points
 
 output:
 
-sequence of x and f(x)
+* sequence of x and f(x)
