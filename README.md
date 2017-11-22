@@ -5,13 +5,13 @@ Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure 
 sinus_plot.cxx  
 generate a sequence of x and sin(x)
 
-input: 
-* (input has beed protected by checking its legality)
-* hw: the times of halfwave length
-* nsteps: number of sampling points
+* input: 
+  * (input has beed protected by checking its legality)
+  * hw: the times of halfwave length
+  * nsteps: number of sampling points
 
-output:
-* sequence of x and f(x)
+* output:
+  * sequence of x and f(x)
 
 ## Uebung 2
 1. Fibonacci.cpp  
