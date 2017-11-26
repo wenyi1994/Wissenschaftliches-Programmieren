@@ -57,14 +57,14 @@ do{
 }
 done
 ```
-* Root Directory
- 1. [run_sim.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_sim.sh)    
+### Root Directory
+1. [run_sim.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_sim.sh)    
 Startup file of `game of life`. The value of `frac` must be typed in (0.3/0.5/0.7). After execution a file named `conf_start` will be created in working directory, which is used as input file of `game of life`.
- 2. [runs.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs.sh)   
+2. [runs.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs.sh)   
 With this **.sh** file [run_sim.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_sim.sh) will be automatically executed. With given value of `frac` the directory `.../frac0.x/config*` will be created, here * is from 1 to 10.
- 3. [calc_frac.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/calc_frac.sh)   
+3. [calc_frac.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/calc_frac.sh)   
 With specified filename `field$i.dat` where `$i` increases itself in the loop, the **frequency of life** will be calculated in every step of development. Here **frequency of life** is defined as **accupied units / sum of units**. The result of calculation will be written in `result_frac.dat` in working directory.
- 4. [run_calc_frac.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_calc_frac.sh)   
+4. [run_calc_frac.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_calc_frac.sh)   
 Automatically executing `calc_frac.sh`. With given value of `frac` the commands in `calc_frac.sh` will be executed in directory `.../runs/frac0.x/config$i`.
- 5. [frac_avrg.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/frac_avrg.sh)   
+5. [frac_avrg.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/frac_avrg.sh)   
 With given value of `frac` the data in file named `result_frac.dat` in directory `.../runs/frac0.x/config$i` will be extracted. Then it will calculate the average value of **frequency of life** in every step of development. The result will be written in file `result_frac_avrg.dat`.
