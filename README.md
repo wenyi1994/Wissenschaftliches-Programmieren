@@ -60,4 +60,4 @@ done
 1. [run_sim.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_sim.sh)   
 Startup file of `game of life`. The value of `frac` must be typed in (0.3/0.5/0.7). After execution a file named `conf_start` will be created in working directory, which is used as input file of `game of life`.
 2. [runs.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs.sh)   
-With this .sh file [run_sim.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_sim.sh) will be automatically executed. With given value of `frac` the directory `.../frac0.x/config*` will be created, here * is from 1 to 10.
+With this **.sh** file [run_sim.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_sim.sh) will be automatically executed. With given value of `frac` the directory `.../frac0.x/config*` will be created, here * is from 1 to 10.
