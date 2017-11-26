@@ -46,14 +46,14 @@ Main function, to start a game of life
 ## Uebung 4
 Using gawk to realize reading / editing data in files.  
 Here are some examples of shell command:  
-```
+```shell
 echo Hello
 echo -e "text \c \n"
 for i in $(seq 1 5)
 do{
-echo creating dir$i
-mkdir dir$i
-echo done!
+    echo creating dir$i
+    mkdir dir$i
+    echo done!
 }
 done
 ```
@@ -62,4 +62,4 @@ Startup file of `game of life`. The value of `frac` must be typed in (0.3/0.5/0.
 2. [runs.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs.sh)   
 With this **.sh** file [run_sim.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_sim.sh) will be automatically executed. With given value of `frac` the directory `.../frac0.x/config*` will be created, here * is from 1 to 10.
 3. [calc_frac.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/calc_frac.sh)   
-With specified filename `field$i.dat` where `$i` increases in the loop, the *frequency of life* will be calculated in every step of development. Here *frequency of life* is defined as **accupied units / sum of units**. The result of calculation will be written in `result_frac.dat` in working directory.
+With specified filename `field$i.dat` where `$i` increases itself in the loop, the *frequency of life* will be calculated in every step of development. Here *frequency of life* is defined as **accupied units / sum of units**. The result of calculation will be written in `result_frac.dat` in working directory.
