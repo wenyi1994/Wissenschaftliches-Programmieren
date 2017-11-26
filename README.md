@@ -75,3 +75,25 @@ Source files of `game of life` are deposited there. Detailed information about `
 Using calculation result `result_frac.dat` in directory `.../runs/frac0.x/config$i` to plot the graph.
 2. [plot_frac_avrg.gp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs/plot_frac_avrg.gp)   
 Using calculation result `result_frac_avrg.dat` in directory `.../runs/frac0.x` to plot the graph.
+```gnuplot
+# Core code for plotting
+
+# define file sequence
+file3(n) = sprintf("./frac0.3/config%d/result_frac.dat",i)
+file5(n) = sprintf("./frac0.5/config%d/result_frac.dat",i)
+file7(n) = sprintf("./frac0.7/config%d/result_frac.dat",i)
+
+# graph setting
+set grid
+set key off
+set xrange[0:100]
+set yrange[0:1]
+set xlabel 'Simulationsschritt [-]'
+set ylabel 'frac'
+set title 'Dichteentwicklung Game of Life Simulationsreihen mit frac=0.3/0.5/0.7'
+
+# plot in loop
+pl for [i=1:10] file3(i) u 1:2 w l lc 1,\
+for [i=1:10] file5(i) u 1:2 w l lc 2,\
+for [i=1:10] file7(i) u 1:2 w l lc 3
+```
