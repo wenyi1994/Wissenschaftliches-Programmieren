@@ -74,5 +74,7 @@ Source files of `game of life` are deposited there. Detailed information about `
 ### - `runs` Directory
 1. [plot_frac_evo.gp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs/plot_frac_evo.gp)   
 Using calculation result `result_frac.dat` in directory `.../runs/frac0.x/config$i` to plot the graph.
+![image](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs/frac_evo.png)
 2. [plot_frac_avrg.gp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs/plot_frac_avrg.gp)   
 Using calculation result `result_frac_avrg.dat` in directory `.../runs/frac0.x` to plot the graph.
+![image](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs/frac_avrg.png)
