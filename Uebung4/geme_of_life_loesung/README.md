@@ -1,1 +1,1 @@
-## game_of_life to do
+## Source files of `game of life` are deposited here.
