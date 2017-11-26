@@ -57,7 +57,7 @@ do{
 }
 done
 ```
-### Root Directory
+### - Root Directory
 1. [run_sim.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_sim.sh)    
 Startup file of `game of life`. The value of `frac` must be typed in (0.3/0.5/0.7). After execution a file named `conf_start` will be created in working directory, which is used as input file of `game of life`.
 2. [runs.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs.sh)   
@@ -68,10 +68,10 @@ With specified filename `field$i.dat` where `$i` increases itself in the loop, t
 Automatically executing `calc_frac.sh`. With given value of `frac` the commands in `calc_frac.sh` will be executed in directory `.../runs/frac0.x/config$i`.
 5. [frac_avrg.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/frac_avrg.sh)   
 With given value of `frac` the data in file named `result_frac.dat` in directory `.../runs/frac0.x/config$i` will be extracted. Then it will calculate the average value of **frequency of life** in every step of development. The result will be written in file `result_frac_avrg.dat`.
-### `game_of_life_loesung` Directory
+### - `game_of_life_loesung` Directory
 Source files of `game of life` are deposited there. Detailed information about `game of life` refers to [Uebung 3](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung3)
-### `runs` Directory
+### - `runs` Directory
 1. [plot_frac_evo.gp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs/plot_frac_evo.gp)   
-Using calculation result `result_frac.dat` in directory `.../runs/frac0.x/config$i` to plot the graph of **frequency - step**.
+Using calculation result `result_frac.dat` in directory `.../runs/frac0.x/config$i` to plot the graph.
 2. [plot_frac_avrg.gp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs/plot_frac_avrg.gp)   
-Using calculation result `result_frac_avrg.dat` in directory `.../runs/frac0.x` to plot the graph of **frequency - step**.
+Using calculation result `result_frac_avrg.dat` in directory `.../runs/frac0.x` to plot the graph.
