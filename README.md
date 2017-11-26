@@ -42,3 +42,6 @@ include 4 operations of a matrix:
 3. main_game.cpp  
 main function, to start a game of life
 4. Makefile
+
+## Uebung 4
+using gawk to realize reading / editing data in files.
