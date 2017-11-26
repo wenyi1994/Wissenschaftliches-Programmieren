@@ -45,4 +45,15 @@ main function, to start a game of life
 
 ## Uebung 4
 Using gawk to realize reading / editing data in files.  
-Fo
+Here are some examples of shell command:  
+```
+echo Hello
+echo -e "text \c \n"
+for i in $(seq 1 5)
+do{
+echo creating dir$i
+mkdir dir$i
+echo done!
+}
+done
+```
