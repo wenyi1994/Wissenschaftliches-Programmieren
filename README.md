@@ -68,3 +68,6 @@ With specified filename `field$i.dat` where `$i` increases itself in the loop, t
 Automatically executing `calc_frac.sh`. With given value of `frac` the commands in `calc_frac.sh` will be executed in directory `.../runs/frac0.x/config$i`.
 5. [frac_avrg.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/frac_avrg.sh)   
 With given value of `frac` the data in file named `result_frac.dat` in directory `.../runs/frac0.x/config$i` will be extracted. Then it will calculate the average value of **frequency of life** in every step of development. The result will be written in file `result_frac_avrg.dat`.
+### `game_of_life_loesung` Directory
+Source files of `game of life` are deposited there. Detailed information about `game of life` refers to [Uebung 3](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung3)
+### `runs` Directory
