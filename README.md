@@ -57,5 +57,5 @@ echo done!
 }
 done
 ```
-1. [run_sim.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_sim.sh)  
+1. [run_sim.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_sim.sh)   
 Startup file of `game of life`. The value of `frac` must be typed in (0.3/0.5/0.7). After execution a file named `conf_start` will be created in working directory, which is used as input file of `game of life`.
