@@ -65,3 +65,5 @@ With this **.sh** file [run_sim.sh](https://github.com/wenyi1994/Wissenschaftlic
 With specified filename `field$i.dat` where `$i` increases itself in the loop, the **frequency of life** will be calculated in every step of development. Here **frequency of life** is defined as **accupied units / sum of units**. The result of calculation will be written in `result_frac.dat` in working directory.
 4. [run_calc_frac.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/run_calc_frac.sh)   
 Automatically executing `calc_frac.sh`. With given value of `frac` the commands in `calc_frac.sh` will be executed in directory `.../runs/frac0.x/config$i`.
+5. [frac_avrg.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/frac_avrg.sh)   
+With given value of `frac` the data in file named `result_frac.dat` in directory `.../runs/frac0.x/config$i` will be extracted. Then it will calculate the average value of **frequency of life** in every step of development. The result will be written in file `result_frac_avrg.dat`.
