@@ -4,7 +4,7 @@ Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure 
 
 > **Update 2017/11/28**  
 > File: [Uebung4/runs.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs.sh)  
-> The directory of `runs/frac0.x` can be automatically created now.
+> Describe: The directory of `runs/frac0.x` can be automatically created now.
 
 ## Uebung 4
 Using `gawk` to realize reading / editing data in files.  
