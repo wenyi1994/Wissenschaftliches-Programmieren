@@ -2,6 +2,10 @@
 Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure in KIT
 ### !!!After download please reset the path in `.sh` `include` or any other file!!!
 
+> Update 2017/11/28
+> <Uebung4/runs.sh>(https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs.sh)
+> The directory of `runs/frac0.x` can be automatically created now.
+
 ## Uebung 4
 Using `gawk` to realize reading / editing data in files.  
 Here are some examples of shell command:  
