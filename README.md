@@ -1,6 +1,23 @@
-# Wissenschaftliches-Programmieren `2017/11/28`
+# Wissenschaftliches-Programmieren `2017/12/10`
 Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure in KIT
 ### !!!After download please reset the path in `.sh` `include` or any other file!!!
+
+## Uebung 5
+Pointer und Felder;  
+Klassen;  
+Lineare Gleichungssysteme, Anwendung: dasWärmeleitproblem.
+
+1. [Assert_test](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung5/Assert_test.cpp)  
+Using `assert(condition)` to stop running if `condition` is `false`.
+```c++
+int i;
+for(;;)
+{
+    cin >> i;
+    assert(i!=0);
+    cout << "i = " << i<<endl;
+}
+```
 
 > **Update 2017/11/28**  
 > File: [Uebung4/runs.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs.sh)  
