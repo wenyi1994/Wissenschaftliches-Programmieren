@@ -7,18 +7,9 @@ Pointer und Felder;
 Klassen;  
 Lineare Gleichungssysteme, Anwendung: dasWärmeleitproblem.
 
-1. [Assert_test](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung5/Assert_test.cpp)  
-Using `assert(condition)` to stop running if `condition` is `false`.
-```c++
-int i;
-for(;;)
-{
-    cin >> i;
-    assert(i!=0);
-    cout << "i = " << i<<endl;
-}
-```
-If the programm should be compiled ignoring `assert()`, use: `g++ -DNDEBUG [file.name]`
+1. [Assert_test](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung5/Assert_test.cpp)
+    * Using `assert(condition)` to stop running if `condition` is `false`.
+    * If the programm should be compiled ignoring `assert()`, use: `g++ -DNDEBUG [file.name]`
 
 > **Update 2017/11/28**  
 > File: [Uebung4/runs.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs.sh)  
