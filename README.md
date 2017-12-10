@@ -12,15 +12,15 @@ Using `assert(condition)` to stop running if `condition` is `false`.
 If the programm should be compiled ignoring `assert()`, use: `g++ -DNDEBUG [file.name]`
 2. [Dynamische_Feld.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung5/Dynamische_Feld.cpp)  
 Using follwing codes to dynamically create a 2-dimensional-array (3 x 5):
-```c++
- int **b;
- b = new int*[3];
- b[0] = new int[3*5];
- for(int i = 1; i<3; i++)
- {
-   b[i] = b[0] + i * 5;
- }
-```
+```c++  
+ int **b;   
+ b = new int*[3];  
+ b[0] = new int[3*5];  
+ for(int i = 1; i<3; i++)  
+ {  
+   b[i] = b[0] + i * 5;  
+ }  
+```  
 Using `delete[] b[0]; delete[] b;` to deconstruct it.
 
 > **Update 2017/11/28**  
