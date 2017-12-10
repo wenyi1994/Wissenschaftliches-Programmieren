@@ -21,7 +21,7 @@ Using follwing codes to dynamically create a 2-dimensional-array (3 x 5):
    b[i] = b[0] + i * 5;  
  }  
 ```  
-Using `delete[] b[0]; delete[] b;` to deconstruct it.
+ Using `delete[] b[0]; delete[] b;` to deconstruct it.
 
 > **Update 2017/11/28**  
 > File: [Uebung4/runs.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs.sh)  
