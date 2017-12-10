@@ -18,6 +18,7 @@ for(;;)
     cout << "i = " << i<<endl;
 }
 ```
+If the programm should be compiled ignoring `assert()`, use: `g++ -DNDEBUG [file.name]`
 
 > **Update 2017/11/28**  
 > File: [Uebung4/runs.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung4/runs.sh)  
