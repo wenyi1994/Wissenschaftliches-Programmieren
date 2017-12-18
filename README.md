@@ -12,8 +12,13 @@ To check the correctness of `MyComplex` class, a test programm [main_complex_bei
 
 ### 2. Untersuchung der Konvergenz komplexer Zahlenfolgen
 [complex.h](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe1/complex.h) is imported above.
-1. [complex_convergency.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe2/complex_convergency.cpp) is the main programm, which can calculate the convergency radius of a complex and write data in corresponding file. Files with name `start*` can be used as standard input.
+1. [complex_convergency.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe2/complex_convergency.cpp) is the main programm, which can calculate the convergency radius of a complex and write data in corresponding file. Files with name `start*.dat` can be used as standard input.
 2. [runs.sh](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe2/runs.sh) can run this programm automatically, as well as `GNUPLOT` commands defined in [plot.gp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe2/plot.gp) which can plot and ouput image file.
+```shell
+echo "
+    load 'plot.gp'
+    " | gnuplot
+```
 3. [makefile](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe2/makefile)
 
 ## Uebung 5
