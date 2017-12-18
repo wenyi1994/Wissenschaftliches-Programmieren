@@ -2,13 +2,14 @@
 Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure in KIT
 ### !!!After download please reset the path in `.sh` `include` or any other file!!!
 
-## Aufgabe 1: Rechnen mit komplexen Zahlen
+## Aufgabe
+### 1. Rechnen mit komplexen Zahlen
 1. [complex.h](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe1/complex.h) | [complex.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe1/complex.cpp)  
 Define a class with name `MyComplex`, which can execute complex number calculation. Some operators (`+` `-` `*` `/` `^`) are overloaded when calculated with an other complex number or real number (either on the left side or right side).
 2. [main_complex_beispiel.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe1/main_complex_beispiel.cpp)  
 To check the correctness of `MyComplex` class, a test programm [main_complex_beispiel.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe1/main_complex_beispiel.cpp) is provided.
 
-## Aufgabe 2: Untersuchung der Konvergenz komplexer Zahlenfolgen
+### 2. Untersuchung der Konvergenz komplexer Zahlenfolgen
 
 ## Uebung 5
 Pointer und Felder;  
