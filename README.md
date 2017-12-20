@@ -3,6 +3,10 @@ Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure 
 ### !!!After download please reset the path in `.sh` `include` or any other file!!!
 
 ## Aufgabe
+> **Update 2017/12/20**  
+> File: [complex.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe1/complex.cpp)  
+> Describtion: Re-define overloaded operator `^`  
+
 ### 1. Rechnen mit komplexen Zahlen
 1. [complex.h](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe1/complex.h) | [complex.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe1/complex.cpp)  
 Define a class with name `MyComplex`, which can execute complex number calculation. Some operators (`+` `-` `*` `/` `^`) are overloaded when calculated with an other complex number or real number (either on the left side or right side).
