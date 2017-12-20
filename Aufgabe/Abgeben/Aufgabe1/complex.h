@@ -27,7 +27,8 @@ public:
     // overload operator +-*/ (with complex number, real number on the left and on the right)
     const MyComplex operator+(const MyComplex & cplx) const;
     const MyComplex operator+(const double & real_number) const;
-    friend const MyComplex operator+(const double & real_number, const MyComplex & cplx); // use friend to define out of class
+    // use friend to define out of class
+    friend const MyComplex operator+(const double & real_number, const MyComplex & cplx);
     const MyComplex operator-(const MyComplex & cplx) const;
     const MyComplex operator-(const double & real_number) const;
     friend const MyComplex operator-(const double & real_number, const MyComplex & cplx);

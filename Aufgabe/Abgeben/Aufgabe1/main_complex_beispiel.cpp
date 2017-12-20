@@ -10,9 +10,9 @@ void output_my_cplx(const MyComplex &c,const std::string txt){
 }
 
 int main(){
-    MyComplex z1 {2.,7.};
-    MyComplex z2 {42.,-9};
-    MyComplex z3 {-11.,19.};
+    MyComplex z1(2.,7.);
+    MyComplex z2(42.,-9);
+    MyComplex z3(-11.,19.);
     MyComplex z4,z5,z6,z7,z8;
 
     output_my_cplx(z1,"z1 ");

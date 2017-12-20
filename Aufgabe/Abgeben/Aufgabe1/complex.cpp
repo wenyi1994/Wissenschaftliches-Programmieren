@@ -11,103 +11,121 @@
 
 using namespace std;
 
-MyComplex::MyComplex(const double re, const double im ){ // constructor
+// constructor
+MyComplex::MyComplex(const double re, const double im ){
     this->m_Real = re;
     this->m_Image = im;
 }
 
-MyComplex::MyComplex(const MyComplex & cplx){ // copy constructor
+// copy constructor
+MyComplex::MyComplex(const MyComplex & cplx){
     this->m_Real = cplx.m_Real;
     this->m_Image = cplx.m_Image;
 }
 
-MyComplex::MyComplex(){this->m_Real = 0; this->m_Image = 0;} // default constructor
-MyComplex::~MyComplex(){} // default destructor
+// default constructor and default destructor
+MyComplex::MyComplex(){this->m_Real = 0; this->m_Image = 0;}
+MyComplex::~MyComplex(){} 
 
-MyComplex & MyComplex::operator=(const MyComplex & cplx){ // overload = operator
+// overload = operator
+MyComplex & MyComplex::operator=(const MyComplex & cplx){
     this->m_Real = cplx.m_Real;
     this->m_Image = cplx.m_Image;
+    return *this;
 }
 
-const MyComplex MyComplex::operator+(const MyComplex & cplx) const{ // overload + operator (complex number)
+// overload + operator (complex number)
+const MyComplex MyComplex::operator+(const MyComplex & cplx) const{
     MyComplex temp;
     temp.m_Real = this->m_Real + cplx.m_Real;
     temp.m_Image = this->m_Image + cplx.m_Image;
     return temp;
 }
 
-const MyComplex MyComplex::operator+(const double & real_number) const{ // overload + operator (real number)
+// overload + operator (real number)
+const MyComplex MyComplex::operator+(const double & real_number) const{
     MyComplex temp;
     temp.m_Real = this->m_Real + real_number;
     temp.m_Image = this->m_Image;
     return temp;
 }
 
-const MyComplex operator+(const double & real_number, const MyComplex & cplx){ // overload + operator (real number, static, left +)
+// overload + operator (real number, static, left +)
+const MyComplex operator+(const double & real_number, const MyComplex & cplx){
     MyComplex temp;
     temp = cplx + real_number;
     return temp;
 }
 
-const MyComplex MyComplex::operator-(const MyComplex & cplx) const{ // overload - operator (complex number)
+// overload - operator (complex number)
+const MyComplex MyComplex::operator-(const MyComplex & cplx) const{
     MyComplex temp;
     temp.m_Real = this->m_Real - cplx.m_Real;
     temp.m_Image = this->m_Image - cplx.m_Image;
     return temp;
 }
 
-const MyComplex MyComplex::operator-(const double & real_number) const{ // overload - operator (real number)
+// overload - operator (real number)
+const MyComplex MyComplex::operator-(const double & real_number) const{
     MyComplex temp;
     temp.m_Real = this->m_Real - real_number;
     temp.m_Image = this->m_Image;
     return temp;
 }
 
-const MyComplex operator-(const double & real_number, const MyComplex & cplx){ // overload - operator (real number, static, left -)
+// overload - operator (real number, static, left -)
+const MyComplex operator-(const double & real_number, const MyComplex & cplx){
     MyComplex temp(real_number,0.);
     return temp - cplx;
 }
 
-const MyComplex MyComplex::operator*(const MyComplex & cplx) const{ // overload * operator (complex number)
+// overload * operator (complex number)
+const MyComplex MyComplex::operator*(const MyComplex & cplx) const{
     MyComplex temp;
     temp.m_Real = this->m_Real * cplx.m_Real - this->m_Image * cplx.m_Image;
     temp.m_Image = this->m_Image * cplx.m_Real + this->m_Real * cplx.m_Image;
     return temp;
 }
 
-const MyComplex MyComplex::operator*(const double & real_number) const{ // overload * operator (real number)
+// overload * operator (real number)
+const MyComplex MyComplex::operator*(const double & real_number) const{
     MyComplex temp;
     temp.m_Real = this->m_Real * real_number;
     temp.m_Image = this->m_Image * real_number;
     return temp;
 }
 
-const MyComplex operator*(const double & real_number, const MyComplex & cplx){ // overload * operator (real number, static, left *)
+// overload * operator (real number, static, left *)
+const MyComplex operator*(const double & real_number, const MyComplex & cplx){
     MyComplex temp;
     temp = cplx * real_number;
     return temp;
 }
 
-const MyComplex MyComplex::operator/(const MyComplex & cplx) const{ // overload / operator (complex number)
+// overload / operator (complex number)
+const MyComplex MyComplex::operator/(const MyComplex & cplx) const{
     MyComplex temp;
     temp.m_Real = (this->m_Real * cplx.m_Real + this->m_Image * cplx.m_Image) / (cplx.m_Real * cplx.m_Real + cplx.m_Image * cplx.m_Image);
     temp.m_Image = (this->m_Image * cplx.m_Real - this->m_Real * cplx.m_Image) / (cplx.m_Real * cplx.m_Real + cplx.m_Image * cplx.m_Image);
     return temp;
 }
 
-const MyComplex MyComplex::operator/(const double & real_number) const{ // overload / operator (real number)
+// overload / operator (real number)
+const MyComplex MyComplex::operator/(const double & real_number) const{
     MyComplex temp;
     temp.m_Real = this->m_Real / real_number;
     temp.m_Image = this->m_Image / real_number;
     return temp;
 }
 
-const MyComplex operator/(const double & real_number, const MyComplex & cplx){ // overload / operator (real number, static, left /)
+// overload / operator (real number, static, left /)
+const MyComplex operator/(const double & real_number, const MyComplex & cplx){
     MyComplex temp(real_number,0);
     return temp / cplx;
 }
 
-const MyComplex MyComplex::operator^(const int & exp) const{ // overload ^ operator
+// overload ^ operator
+const MyComplex MyComplex::operator^(const int & exp) const{
     MyComplex temp(0,0);
     if(this->m_Real * this->m_Image == 0) return temp;
     else
