@@ -19,7 +19,7 @@ void calcu(int Iter_num, double value_l_real, double value_l_imag, double value_
             int Nxmax, int Nymax, int exp, int N_max, double rc, char filename[], double c_real, double c_imag)
 {
     char file[256];
-    sprintf(file,filename);
+    sprintf(file,"%s",filename);
     ofstream calc_output;
 
     double dx = (value_r_real - value_l_real) / Nxmax;
