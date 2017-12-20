@@ -108,10 +108,25 @@ const MyComplex operator/(const double & real_number, const MyComplex & cplx){ /
 }
 
 const MyComplex MyComplex::operator^(const int & exp) const{ // overload ^ operator
-    MyComplex temp(1,0);
-    for (int i = 0; i<exp; i++)
+    MyComplex temp(0,0);
+    if(this->m_Real * this->m_Image == 0) return temp;
+    else
     {
-        temp = temp * *this;
+        temp.m_Real = 1;
+        if(exp > 0)
+        {
+            for (int i = 0; i<exp; i++)
+            {
+                temp = temp * *this;
+            }
+        }
+        else if(exp < 0)
+        {
+            for (int i = 0; i>exp; i--)
+            {
+                temp = temp / *this;
+            }
+        }
     }
     return temp;
 }
