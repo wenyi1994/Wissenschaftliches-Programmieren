@@ -5,8 +5,8 @@ Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure 
 
 ## Aufgabe
 > **Update 2017/12/21**  
-> File: [main_complex_beispiel](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/macOS/Aufgabe/Aufgabe1/main_complex_beispiel.cpp)  
-> Describtion: Robust fix to adapt to `clang` for compiling on macOS.
+> File: [main_complex_beispiel.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/macOS/Aufgabe/Aufgabe1/main_complex_beispiel.cpp)  
+> Describtion: Robust fix to adapt to `clang` (other than C++ 11 Standard) for compiling on macOS.
 
 > **Update 2017/12/20**  
 > File: [complex.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe1/complex.cpp)  
