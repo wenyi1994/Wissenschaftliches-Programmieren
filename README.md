@@ -4,6 +4,10 @@ Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure 
 ### In this `Branch` files that suitable macOS (compiled with clang++) are located. For Linux version (compiled with gcc) of codes click [here](https://github.com/wenyi1994/Wissenschaftliches-Programmieren).
 
 ## Aufgabe
+> **Update 2017/12/21**  
+> File: [main_complex_beispiel](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/macOS/Aufgabe/Aufgabe1/main_complex_beispiel.cpp)  
+> Describtion: Robust fix to adapt to `clang` for compiling on macOS.
+
 > **Update 2017/12/20**  
 > File: [complex.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Aufgabe/Aufgabe1/complex.cpp)  
 > Describtion: Re-define overloaded operator `^`  
