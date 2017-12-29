@@ -128,24 +128,24 @@ int main(int argc, char* argv[]){
     //TODO: Kopplungsterme in Matrix schreiben: nur "innere Knoten werden betrachtet
     for(int i = 1; i<M-1; i++)
     {
-      A_w(i,i-1) = 1.0;
-      A_w(i,i) = a_w(i)*c - 2.0;
-      A_w(i,i+1) = 1.0;
+      A_w(i,i-1) = -1.0;
+      A_w(i,i) = a_w(i)*c + 2.0;
+      A_w(i,i+1) = -1.0;
     }
 
     //TODO: Knoten 0 und Knoten M-1 : Randbedingung werden eingebaut
-    A_w(0,0) = a_w(0) * T_e * c / T_0;
-    A_w(M-1,M-1) = a_w(M-1) * T_e * c / T_L;
-    // A_w(0,0) = 1;
-    // A_w(M-1,M-1) = 1;
-    // A_w(0,1) = ( b_w(0) - T_0 ) / b_w(1);
-    // A_w(M-1,M-2) = ( b_w(M-1) - T_L ) / b_w(M-2);
+    // A_w(0,0) = a_w(0) * T_e * c / T_0;
+    // A_w(M-1,M-1) = a_w(M-1) * T_e * c / T_L;
+    A_w(0,0) = a_w(0)*c + 2.0;
+    A_w(M-1,M-1) = a_w(M-1)*c + 2.0;
 
     //TODO: A_w muss symmetrisch sein: Anpassen der Matrix A_w und rechten Seite b_w
-    for(int i = 0; i<M; i++)
+    for(int i = 1; i<M-1; i++)
     {
       b_w(i) = a_w(i) * T_e * c;
     }
+    b_w(0) = A_w(0,0)*T_0;
+    b_w(M-1) = A_w(M-1,M-1)*T_L;
     // A_w(0,1) = b_w(0) - T_0
 
     //TODO: Anfangswerte x_w0 (best guess): z.B. lineare Interpolation
@@ -156,21 +156,25 @@ int main(int argc, char* argv[]){
     }
 
     cout<<"A_w"<<endl;
-    x_w0.print("x_w0");
     A_w.print();
+    x_w0.print("x_w0");
     b_w.print("b_w");
+
+    Matrix A_w_1 = A_w;
 
     //TODO: Loesung mit CG-Solver:
     cout<<"----Loesung mit CG-Solver:----"<<endl;
-    x_w = cg_solve(x_w0, A_w, b_w);
+    x_w = cg_solve(x_w0, A_w_1, b_w);
     x_w.print("x_w");
     (A_w*x_w).print("A_w * x_w");
 
     write_vector_to_file(x_w, "CG_waermeleit.dat");
 
+    Matrix A_w_2 = A_w;
+
     //TODO: Loesung mit LU-Solver:
     cout<<"----Loesung mit LU-Solver:----"<<endl;
-    x_w = lu_solve(A_w, b_w);
+    x_w = lu_solve(A_w_2, b_w);
     x_w.print("x_w");
     (A_w*x_w).print("A_w * x_w");
 
