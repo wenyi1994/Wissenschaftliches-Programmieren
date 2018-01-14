@@ -1,6 +1,11 @@
-# Wissenschaftliches-Programmieren `2017/12/18`
+# Wissenschaftliches-Programmieren `2018/01/14`
 Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure in KIT
 ### `ATTENTION`After download please reset the path in `.sh` `include` or any other file
+
+## Uebung 6
+1. [Polymorphism](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/Polymorph)
+2. [System of linear equations (auf Deutsch LGS - Linear Gleichungen System)](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/LGS)
+3. [\[TODO\]Move of Plante](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/Planeten)
 
 ## Aufgabe
 > **Update 2017/12/20**  
