@@ -5,8 +5,10 @@ Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure 
 ## Uebung 6
 1. [Polymorphism](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/Polymorph)  
 With virtual function some members of function can be declared in base class and in inheritance class will be defined. After keyword `virtual` a virtual member funciton is declared. Pure virtual function can be specified with suffix `=0`, it means this function **MUST** be overrided in subclass.
-2. [System of linear equations (auf Deutsch LGS - Linear Gleichungen System)](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/LGS)
-3. [`TODO`Move of Plante](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/Planeten)
+2. [System of linear equations (auf Deutsch LGS - Linear Gleichungen System)](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/LGS)  
+The physical model is a spring grid, which is composed by several totally same spring. Given that a externe force will be exert perpendicular to the grid plane, the displacement of each node is requested.  
+This question can be solved by matrix that describes the equation system. In this programme LU-decomposition method is applied.
+3. [**`TODO`**Move of Plante](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/Planeten)
 
 ## Aufgabe
 > **Update 2017/12/20**  
