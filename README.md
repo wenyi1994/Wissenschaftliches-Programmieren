@@ -9,7 +9,8 @@ With virtual function some members of function can be declared in base class and
 The physical model is a spring grid, which is composed by several totally same spring. Given that a externe force will be exert perpendicular to the grid plane, the displacement of each node is requested.  
 This question can be solved by matrix that describes the equation system. In this programme LU-decomposition method is applied.  
 For instance, suppose a grid consists of 50 x 50 springs, on each node of the grid a force of -3 N is exert (-3 means perpendicular and point to bottom). The displacement of the grid can be described with following contour.  
-![image](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/LGS/Figure_50_-3_all.jpg)
+![image](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/LGS/Figure_50_-3_all.jpg)  
+> Using [20180114_121253_Eingabe.dat](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/LGS/20180114_121253_Eingabe.dat) as input and [20180114_121253_Ausgabe.dat](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/LGS/20180114_121253_Ausgabe.dat) is output.
 3. [(TODO) Move of Plante](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/Planeten)
 
 ## Aufgabe
