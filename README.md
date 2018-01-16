@@ -1,4 +1,4 @@
-# Wissenschaftliches-Programmieren `2018/01/14`
+# Wissenschaftliches-Programmieren `2018/01/16`
 Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure in KIT
 ### `ATTENTION`After download please reset the path in `.sh` `include` or any other file
 
@@ -11,7 +11,13 @@ This question can be solved by matrix that describes the equation system. In thi
 For instance, suppose a grid consists of `50 x 50` springs, on each node of the grid a force of -3 N is exert (-3 means perpendicular and point to bottom). The displacement of the grid can be described with following contour.  
 ![image](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/LGS/Figure_50_-3_all.jpg)  
 > Using [20180114_121253_Eingabe.dat](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/LGS/20180114_121253_Eingabe.dat) as input and [20180114_121253_Ausgabe.dat](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/LGS/20180114_121253_Ausgabe.dat) is output.
-3. [(TODO) Move of Plante](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/Planeten)
+3. [Molecular Dynamics](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/Planeten)  
+Using Euler-Method or Verlet-Method to study the movement of planet in the field of molecular dynamics. With the passage of time the position and velocity of Planet can be calculated discrete. Further more the energy of celestial body (including kinetic energy and potential energy) can be gotten and it meets the law of conservation.  
+*The Trajectory of planet*  
+![image](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/Planeten/Figure_300_0.jpg)  
+> Using [planet.dat](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/Planeten/planet.dat) as input and [verlet.dat](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/Planeten/verlet.dat) is output.  
+*Energy of planet*  
+![image](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/Planeten/Figure_300_0_en.jpg)
 
 ## Aufgabe
 > **Update 2017/12/20**  
