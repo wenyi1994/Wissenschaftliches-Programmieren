@@ -13,9 +13,11 @@ For instance, suppose a grid consists of `50 x 50` springs, on each node of the 
 > Using [20180114_121253_Eingabe.dat](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/LGS/20180114_121253_Eingabe.dat) as input and [20180114_121253_Ausgabe.dat](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/LGS/20180114_121253_Ausgabe.dat) is output.
 3. [Molecular Dynamics](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/Planeten)  
 Using Euler-Method or Verlet-Method to study the movement of planet in the field of molecular dynamics. With the passage of time the position and velocity of Planet can be calculated discrete. Further more the energy of celestial body (including kinetic energy and potential energy) can be gotten and it meets the law of conservation.  
+
 *The Trajectory of planet*  
 ![image](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/Planeten/Figure_300_0.jpg)  
 > Using [planet.dat](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/Planeten/planet.dat) as input and [verlet.dat](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/Planeten/verlet.dat) is output.  
+
 *Energy of planet*  
 ![image](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/Planeten/Figure_300_0_en.jpg)
 
