@@ -3,6 +3,8 @@ Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure 
 ### `ATTENTION`After download please reset the path in `.sh` `include` or any other file
 
 ## Uebung 6
+> **Update 2018/01/16**
+> Add 2 solving methods for [system of linear equation](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/LGS): Cholesky Decomposition and Gauss-Seidel Ieration.
 1. [Polymorphism](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/Polymorph)  
 With virtual function some members of function can be declared in base class and in inheritance class will be defined. After keyword `virtual` a virtual member funciton is declared. Pure virtual function can be specified with suffix `=0`, it means this function **MUST** be overrided in subclass.
 2. [System of linear equations (auf Deutsch LGS - Linear Gleichungen System)](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung6/LGS)  
