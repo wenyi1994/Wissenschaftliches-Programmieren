@@ -149,3 +149,19 @@ void Matrix::print(const int w) const
     }
 }
 
+const Matrix Matrix::transpose() const
+{
+  Matrix temp = *this;
+  std::size_t nx = this->_rows;
+  std::size_t ny = this->_cols;
+  assert(nx == ny);
+  for(auto i=0;i<nx;i++)
+  {
+    for(auto j=i+1;j<ny;j++)
+    {
+      temp(i,j) = this->dataPtr[j][i];
+      temp(j,i) = this->dataPtr[i][j];
+    }
+  }
+  return temp;
+}

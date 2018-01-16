@@ -24,6 +24,12 @@ Vector lu_solve(  Matrix & A,  const  Vector &  b );
 /* Verwendung: x = cg_solve_LGS ( phi0, A, b); */
 Vector cg_solve( const Vector & phi0, const Matrix & A, const Vector & b );
 
+// Gauss-Seidel-Verfahren
+Vector gs_solve( const Vector & phi0, Matrix & A, const Vector & b);
+
+// Cholesky-Verfahren
+Vector ch_solve( const Matrix & A, const Vector &b);
+
 
 
 

@@ -50,6 +50,7 @@ class Matrix {
   
   //Ausgabe Matrix
   void print(const int w=8) const; //const int w=8 default Wert für Abstand. Übergabe bei Aufruf optional
+  const Matrix transpose() const;
 
 
  private:
