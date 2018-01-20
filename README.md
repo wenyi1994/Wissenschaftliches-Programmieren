@@ -7,14 +7,12 @@ Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure 
 Using some lambda functions (anonymous function) for realization. A typical lambda function has this form:  
 ```c++
 [&](data x)->bool{ return x.a > x.b;};
-```
-Moreover, some STL (Standard Template Library) algorithms are used in for-loop, such as:
-```c++
+// Moreover, some STL (Standard Template Library) algorithms are used in for-loop, such as:
 for_each(x.begin(), x.end(), function());
 for(auto x: data){};
 ```
 2. [mandelbrot.cxx](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung7/mandelbrot.cxx)  
-Using OpenMP to realize parallelism. Mandelbrot Set is the set of values of c in the complex plane for which the orbit of 0 under iteration of the quadratic map `z[n+1] = z[n]^2 + c` remains bounded.
+Using OpenMP to realize parallelism. Mandelbrot Set is the set of values of c in the complex plane for which the orbit of 0 under iteration of the quadratic map `z[n+1] = z[n]^2 + c` remains bounded. This file calculate the convergency racial of a complex (just like in [Aufgabe](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Aufgabe)). The significance of OpenMP here is that, the for-loop can be executed by more than one threads in the same time, which can significant reduce the runtime.
 
 ## Uebung 6
 > **Update 2018/01/16**  
