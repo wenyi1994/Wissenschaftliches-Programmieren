@@ -1,4 +1,4 @@
-# Wissenschaftliches-Programmieren `2018/01/16`
+# Wissenschaftliches-Programmieren `2018/01/20`
 Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure in KIT
 ### `ATTENTION`After download please reset the path in `.sh` `include` or any other file
 
@@ -7,7 +7,9 @@ Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure 
 Using some lambda functions (anonymous function) for realization. A typical lambda function has this form:  
 ```c++
 [&](data x)->bool{ return x.a > x.b;};
+
 // Moreover, some STL (Standard Template Library) algorithms are used in for-loop, such as:
+
 for_each(x.begin(), x.end(), function());
 for(auto x: data){};
 ```
