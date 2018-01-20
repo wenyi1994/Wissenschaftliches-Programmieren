@@ -12,7 +12,7 @@ for_each(x.begin(), x.end(), function());
 for(auto x: data){};
 ```
 2. [mandelbrot.cxx](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung7/mandelbrot.cxx)  
-Using OpenMP to realize parallelism. Mandelbrot Set is the set of values of c in the complex plane for which the orbit of 0 under iteration of the quadratic map `z[n+1] = z[n]^2 + c` remains bounded. This file calculate the convergency racial of a complex (just like in [Aufgabe](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Aufgabe)). The significance of OpenMP here is that, the for-loop can be executed by more than one threads in the same time, which can significant reduce the runtime.
+Using OpenMP to realize parallelism. Mandelbrot Set is the set of values of c in the complex plane for which the orbit of 0 under iteration of the quadratic map `z[n+1] = z[n]^2 + c` remains bounded. This file calculate the convergency racial of a complex (just like in [Aufgabe 2](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Aufgabe/Aufgabe2)). The significance of OpenMP here is that, the for-loop can be executed by more than one threads in the same time, which can significant reduce the running time.
 
 ## Uebung 6
 > **Update 2018/01/16**  
