@@ -2,6 +2,20 @@
 Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure in KIT
 ### `ATTENTION`After download please reset the path in `.sh` `include` or any other file
 
+## Uebung 7
+1. [lambda_func.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung7/lambda_func.cpp)  
+Using some lambda functions (anonymous function) for realization. A typical lambda function has this form:  
+```c++
+[&](data x)->bool{ return x.a > x.b;};
+```
+Moreover, some STL (Standard Template Library) algorithms are used in for-loop, such as:
+```c++
+for_each(x.begin(), x.end(), function());
+for(auto x: data){};
+```
+2. [mandelbrot.cxx](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung7/mandelbrot.cxx)  
+Using OpenMP to realize parallelism. Mandelbrot Set is the set of values of c in the complex plane for which the orbit of 0 under iteration of the quadratic map `z[n+1] = z[n]^2 + c` remains bounded.
+
 ## Uebung 6
 > **Update 2018/01/16**  
 > File: [LGS.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung6/LGS/LGS.cpp)  
