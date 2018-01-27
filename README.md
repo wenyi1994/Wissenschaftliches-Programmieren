@@ -2,6 +2,11 @@
 Arbeitsbereich fuer Vorlesung: Wissenschaftliches Programmieren fuer Ingenieure in KIT
 ### `ATTENTION`After download please reset the path in `.sh` `include` or any other file
 
+## Uebung 8
+Molecular Dynamics (cont.)
+1. [Hexagonalgitter(hexagon grid)](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung8/hex)
+2. [Quadratgitter(square grid)](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/tree/master/Uebung8/quad)
+
 ## Uebung 7
 1. [lambda_func.cpp](https://github.com/wenyi1994/Wissenschaftliches-Programmieren/blob/master/Uebung7/lambda_func.cpp)  
 Using some lambda functions (anonymous function) for realization. A typical lambda function has this form:  
